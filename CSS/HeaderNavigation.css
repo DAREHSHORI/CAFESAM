@@ -1,0 +1,112 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@250&family=Yanone+Kaffeesatz:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Extended+Text&family=Stick+No+Bills:wght@250&family=Yanone+Kaffeesatz:wght@300;500&display=swap');
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Extended+Text&family=Saira+Condensed:wght@200&family=Stick+No+Bills:wght@250&family=Yanone+Kaffeesatz:wght@300;500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+@media (min-width: 1203px) {
+    /* body {
+        margin-bottom: 5% !important;
+    } */
+}
+
+
+
+
+
+
+
+
+
+/* body {
+    margin: 5% 0 !important;
+} */
+
+header.HEADER .navbar strong a {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 25px;
+    color: tomato;
+}
+header.HEADER .navbar strong a span {
+    font-weight: 500;
+    letter-spacing: 5;
+}
+.Header {
+    position: fixed !important;
+    display: flex;
+    /* box-shadow: 0 0 10px #00000010; */
+    backdrop-filter: blur(15px) !important;
+    top: 0 !important;
+    min-width: 100% !important;
+    height: 3.5rem !important;
+    margin-bottom: 1% !important;
+    text-shadow: 2px 2px 0 #00000080;
+    box-shadow: 4px 4px 0 #00000010;
+    z-index: 5 !important;
+}
+
+.NAVIGATION {
+    position: fixed !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #00000010 !important;
+    backdrop-filter: blur(15px) !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 3.5rem !important;
+    /*text-align: center !important;*/
+    z-index: 5;
+}
+
+    .NAVIGATION .container {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        text-transform: uppercase;
+        color: tomato !important;
+    }
+
+.Brand {
+    color: #100E17;
+}
+
+.border-top {
+    border-top: 5px solid #00000010 !important;
+}
+
+.border-bottom {
+    border-bottom: 5px solid #00000010 !important;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05) !important;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+    border: 1px dashed #1F2936;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+
+
+a {
+    text-decoration: none;
+}
